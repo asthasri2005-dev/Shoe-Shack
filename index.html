@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<style>
+  .bgg {
+    background-color: grey;
+  }
+  .latest-products {
+  background-color: #f8f9fa; /* light grey */
+}
+
+.latest-products .card-img-top {
+  object-fit: cover;
+  height: 200px; /* fixed height for uniform look */
+}
+.latest-products .card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+
+.site-footer {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.site-footer h5 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.site-footer a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.site-footer .social-links a {
+  color: #dddddd;
+}
+
+.site-footer .social-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 2rem;
+  color: #aaaaaa;
+}
+
+</style>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Shoes/main-logo.png" alt="Logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Our Product</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+ 
+  <!-- Carousel Start -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+     <!-- Carousel End -->
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="Shoes/card-item1.jpg" class="d-block w-100" alt="Shoe 1">
+          </div>
+          <div class="col-lg-6">
+            <img src="Shoes/card-item2.jpg" class="d-block w-100" alt="Shoe 2">
+          </div>
+          <div class="col-lg-6">
+            <img src="Shoes/card-item3.jpg" class="d-block w-100" alt="Shoe 3">
+          </div>
+          <div class="col-lg-6">
+            <img src="Shoes/card-item4.jpg" class="d-block w-100" alt="Shoe 4">
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="Shoes/card-item5.jpg" class="d-block w-100" alt="Shoe 5">
+          </div>
+          <div class="col-lg-6">
+            <img src="Shoes/card-item6.jpg" class="d-block w-100" alt="Shoe 6">
+          </div>
+          <div class="col-lg-6">
+            <img src="Shoes/card-item7.jpg" class="d-block w-100" alt="Shoe 7">
+          </div>
+          <div class="col-lg-6">
+            <img src="Shoes/card-item8.jpg" class="d-block w-100" alt="Shoe 8">
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="container bgg p-5 my-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>10% OFF Discount Coupons</h1>
+        <p>Subscribe us to get 10% OFF on all the purchases</p>
+      </div>
+      <div class="col-lg-4 p-3">
+        <button> Email Me</button>
+      </div>
+    </div>
+  </div>
+
+     <!-- Featured Products Section -->
+<section class="featured-products py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Featured Products</h2>
+    <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="Shoes/collection-item1.jpg" class="card-img-top" alt="Running Shoe 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Air Max Sprint</h5>
+            <p class="card-text text-muted">₹2,499</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="Shoes/collection-item2.jpg" class="card-img-top" alt="Running Shoe 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Nike Flex Run</h5>
+            <p class="card-text text-muted">₹3,299</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="Shoes\card-item5.jpg" class="card-img-top" alt="Running Shoe 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Puma FastRide</h5>
+            <p class="card-text text-muted">₹2,799</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="Shoes\card-image3.jpg" class="card-img-top" alt="Running Shoe 4">
+          <div class="card-body text-center">
+            <h5 class="card-title">Adidas SuperRun</h5>
+            <p class="card-text text-muted">₹3,499</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section>
+
+<!-- Latest Products Section -->
+<section class="latest-products py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Latest Running Shoes for Men</h2>
+    <div class="row g-4">
+
+
+      <!-- Product 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\collection-item2.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">₹999</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\collection-item1.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">₹1,499</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\single-product-thumb1.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\single-product-thumb2.jpg" class="card-img-top" alt="Product 4">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 4</h5>
+            <p class="card-text">₹1,050</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image3.jpg" class="card-img-top" alt="Product 5">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 5</h5>
+            <p class="card-text">₹1,999</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image1.jpg" class="card-img-top" alt="Product 6">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 6</h5>
+            <p class="card-text">₹1,800</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image5.jpg" class="card-img-top" alt="Product 7">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 7</h5>
+            <p class="card-text">₹2,200</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image3.jpg" class="card-img-top" alt="Product 8">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 8</h5>
+            <p class="card-text">₹1,750</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image1.jpg" class="card-img-top" alt="Product 9">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 9</h5>
+            <p class="card-text">₹2,000</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image2.jpg" class="card-img-top" alt="Product 10">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 10</h5>
+            <p class="card-text">₹1,100</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image3.jpg" class="card-img-top" alt="Product 11">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 11</h5>
+            <p class="card-text">₹1,350</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="Shoes\card-image5.jpg" class="card-img-top" alt="Product 12">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 12</h5>
+            <p class="card-text">₹2,500</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+<!-- Footer Section -->
+<footer class="site-footer bg-dark text-light pt-5">
+  <div class="container">
+    <div class="row">
+      <!-- About Column -->
+      <div class="col-md-4 mb-4">
+        <h5>About Us</h5>
+        <p>We are passionate about delivering the best running shoes for men. Quality, comfort, and style are our priorities.</p>
+      </div>
+      <!-- Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light">Home</a></li>
+          <li><a href="#" class="text-light">Shop</a></li>
+          <li><a href="#" class="text-light">About</a></li>
+          <li><a href="#" class="text-light">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Customer Service -->
+      <div class="col-md-3 mb-4">
+        <h5>Customer Service</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light">Returns & Exchanges</a></li>
+          <li><a href="#" class="text-light">Shipping Policy</a></li>
+          <li><a href="#" class="text-light">Size Guide</a></li>
+          <li><a href="#" class="text-light">FAQs</a></li>
+        </ul>
+      </div>
+      <!-- Contact & Social -->
+      <div class="col-md-3 mb-4">
+        <h5>Contact Us</h5>
+        <p>
+          123 Shoe Street,<br>
+          Lucknow, Uttar Pradesh,<br>
+          India<br>
+          Email: support@example.com<br>
+          Phone: +91 9876543210
+        </p>
+        <div class="social-links">
+          <a href="#" class="text-light me-2"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-light me-2"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-light me-2"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-youtube fa-lg"></i></a>
+        </div>
+      </div>
+    </div> <!-- /.row -->
+    <div class="footer-bottom text-center py-3">
+      <p class="mb-0">&copy; 2025 Your Brand Name. All Rights Reserved.</p>
+    </div>
+  </div> <!-- /.container -->
+</footer>
+
+<!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel End -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

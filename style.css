@@ -1,0 +1,47 @@
+.bgg {
+  background-color: grey;
+}
+
+.latest-products {
+  background-color: #f8f9fa;
+}
+
+.latest-products .card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.site-footer {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.site-footer h5 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.site-footer a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.site-footer .social-links a {
+  color: #dddddd;
+}
+
+.site-footer .social-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 2rem;
+  color: #aaaaaa;
+}
